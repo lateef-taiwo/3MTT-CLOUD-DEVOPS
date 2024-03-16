@@ -12,6 +12,7 @@ We will be writing a lot of Dockerfiles for various applications like python, ja
         FROM httpd:2.4-alpine3.19
         COPY . /usr/local/apache2/htdocs
 
+
 #### Ordered list
 1. Apache webserver
 2. nginx webserver
@@ -28,8 +29,20 @@ We will be writing a lot of Dockerfiles for various applications like python, ja
 * Go
 * Node
 
+### Java Dockerfile
+
+    FROM openjdk:17
+    COPY . /usr/src/app/
+    WORKDIR /usr/src/app/
+    RUN javac Hello.java
+    CMD ["java", "Hello"]
+
+
 You can open a dockerhub account on DockerHub [here](https://hub.docker.com/)
 
 ![Github actions](./images/github-actions.png)
 
 ![](./images/circleci.png)
+
+Other Programming Languages
+`Rust programming` 
