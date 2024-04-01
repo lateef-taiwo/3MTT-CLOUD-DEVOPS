@@ -1,5 +1,6 @@
 # 3MTT-CLOUD-DEVOPS
 
+This repository containe Dockerfiles and notes I used to train students/fellows of the 3MTT Cloud & DevOps program
 The repository explains a step by step process on how to write Dockerfiles and also build and push docker images
 
 We will be writing a lot of Dockerfiles for various applications like python, javascript and node applications
